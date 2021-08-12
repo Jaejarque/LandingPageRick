@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
+.main{
+    width:100%;
+    height:50px;
+    display:flex;
+    font-family: Century Gothic;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+}
+.btnnav{
+    width:200px;
+    text-align: center;
+    position:relative;
+    margin-left:10px;
+    left:20%;
+}
+.linksnav{
+    text-decoration: none;
+    color:white;
+    position:relative;
+    top:10px;
+}
+.log{
+    width:0%;
+    height:2px;
+    background-color:rgb(255, 255, 255);
+    position:relative;
+    top:27px;
+    transition:0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btnnav:hover  .log{
+    width:100%;
+}
+
+.principal{
+    width:100vw;
+    height:100vh;
+    background-image: url("img/rickymortyprincipal.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: 0px -80px;
+}
+
+.secunav{
+    position:fixed;
+    right: 0;
+    top:30%;
+    width:10%;
+}
+.btnsecun{
+    display:flex;
+    width:100%;
+    position:relative;
+    margin-top:40px;
+    background-color:rgba(0,0,0,0);
+    padding:10px 10px;
+    border-bottom: white 1.5px solid;
+}
+.btnsecun:hover .linksecun{
+    color:rgba(255,255,255,1);
+}
+.linksecun{
+    color:rgba(255,255,255,0);
+    font-size:1.3em;
+    font-family: Century Gothic;
+    text-decoration: none;
+    transition:0.2s;
+}
+.primera{
+    color:rgba(255,255,255,1);
+    font-size:1em;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+.infoprin{
+    width:40%;
+    position:relative;
+    top:20%;
+    left:5%;
+    font-family: Century;
+    background-color:rgba(0,0,0,.5);
+    padding:20px;
+}
+.titleinfo{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:1.9em;
+}
+.infoge{
+    color:white;
+    position:relative;
+    margin-top:20px;
+    font-size:1.2em;
+}
+
+.segcuadro{
+    width:100vw;
+    height:100vh;
+    background: rgb(25,25,25);
+    display:flex;
+}
+.history{
+    width:40%;
+    position:relative;
+    top:25%;
+    left:10%;
+    font-family: Century Gothic;
+    color:white;
+}
+.secimg{
+    width:300px;
+    height:300px;
+    background-size: 100% 100%;
+    position:relative;
+    top:25%;
+    left:20%;
+    background-image: url("img/segundocuadro.jpg");
+}
+
+#rp{
+    width: 100vw;
+    height: 100vh;
+}
+.rpersonaje{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.sectionper{
+    width:20%;
+    height:100%;;
+}
+.fx{
+    width:100%;
+    height:100%;
+}
+#rick{
+    background-image: url("img/rick.jpg");
+    background-size: cover;
+    background-position: 50% 0px;
+}
+.imgper{
+    width:150px;
+    height:150px;
+    position:relative;
+    left:20%;
+    top:20%;
+    border-radius: 100px;
+    border:solid 2px rgb(68, 68, 68);
+}
+#imgvozrick{
+    background-image: url("img/vozricky.jpg");
+    background-size:cover;
+
+}
+.textper{
+    width:80%;
+    position: relative;
+    left: 10%;
+    height:300px;
+    margin-top: 150px;
+}
+.textperletter{
+    color:white;
+    background-color: black;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+#morty{
+    background-image: url("img/morty.png");
+    background-size: cover;
+    background-position: 20% 0px;
+}
+#imgvozmorty{
+    background-image: url("img/vozmorty.jpg");
+    background-size:cover;
+}
+
+#Sister{
+    background-image: url("img/summer.jpg");
+    background-size: cover;
+    background-position: 15% 0px;
+}
+#imgvozSister{
+    background-image: url("img/vozsummer.jpg");
+    background-size:cover;
+}
+
+#Mother{
+    background-image: url("img/beth.jpg");
+    background-size: cover;
+    background-position: 55% 0px;
+}
+#imgvozMother{
+    background-image: url("img/vozbeth.jpg");
+    background-size:cover;
+}
+
+#Father{
+    background-image: url("img/father.png");
+    background-size: cover;
+    background-position: 65% 0px;
+}
+#imgvozFather{
+    background-image: url("img/vozjerry.jpg");
+    background-size:cover;
+}
